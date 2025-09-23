@@ -36,7 +36,8 @@ jobs:
           repositories_forks: yes
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_user: gugle
           plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_days: 365
           plugin_wakatime_limit: 15
-          plugin_wakatime_repositories_visibility: 公共
+          plugin_wakatime_repositories_visibility: public
