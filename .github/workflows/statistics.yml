@@ -19,7 +19,7 @@ jobs:
           config_timezone: Asia/Shanghai
           plugin_followup: yes
           plugin_followup_archived: yes
-          plugin_followup_sections: repositories
+          plugin_followup_sections: 仓库
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
@@ -29,7 +29,7 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_limit: 10
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
+          plugin_languages_recent_days: 365
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
