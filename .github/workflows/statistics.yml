@@ -26,6 +26,7 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
+          plugin_languages_other: no
           plugin_languages_colors: github
           plugin_languages_limit: 10
           plugin_languages_recent_categories: markup, programming
@@ -41,3 +42,5 @@ jobs:
           plugin_wakatime_days: 365
           plugin_wakatime_limit: 15
           plugin_wakatime_repositories_visibility: public
+          plugin_wakatime_languages_other: no
+          plugin_wakatime_languages_ignored: Other
